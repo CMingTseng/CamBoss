@@ -34,13 +34,13 @@ android {
         }
     }
 
-//    sourceSets {
-//        main {
-//            java.srcDirs = ['src/main']
-//            assets.srcDirs = ['assets']
-//            jniLibs.srcDirs = ['libs']
-//        }
-//    }
+    sourceSets {
+        main {
+            java.srcDirs = ['src/main']
+            assets.srcDirs = ['assets']
+            jniLibs.srcDirs = ['libs']
+        }
+    }
 
     packagingOptions {
         exclude 'META-INF/ASL2.0'
