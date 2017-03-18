@@ -7,7 +7,7 @@ import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
 
-import com.tutk.Kalay.general.R;
+import com.tutk.R;
 
 /**
  * Created by James Huang on 2015/4/2.

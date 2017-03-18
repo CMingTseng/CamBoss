@@ -22,9 +22,9 @@
       android:id="@+id/preview_view"
       android:layout_width="wrap_content"
       android:layout_gravity="center"
-      android:layout_height="wrap_content"/>     
- 
-  <com.tutk.zxing.ViewfinderView
+      android:layout_height="wrap_content"/>
+
+    <com.tutk.util.zxing.ViewfinderView
       android:id="@+id/viewfinder_view"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content" /> 

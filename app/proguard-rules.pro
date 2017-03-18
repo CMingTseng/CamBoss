@@ -50,11 +50,11 @@
 -keep public class com.android.vending.licensing.ILicensingService
 
 -keepclasseswithmembers class * {
-    public <init>(android.content.Context,android.util.AttributeSet);
+    public <init>(android.content.Context,android.com.tutk.util.AttributeSet);
 }
 
 -keepclasseswithmembers class * {
-    public <init>(android.content.Context,android.util.AttributeSet,int);
+    public <init>(android.content.Context,android.com.tutk.util.AttributeSet,int);
 }
 
 -keepclassmembers class * extends android.app.Activity {
