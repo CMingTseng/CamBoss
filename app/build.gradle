@@ -16,6 +16,8 @@ dependencies {
     compile 'com.viewpagerindicator:viewpagerindicator:0.0.1'
     compile 'com.slidingmenu:slidingmenu:0.0.1'
     compile 'com.google.android.gms:play-services-gcm:8.1.0'
+    compile 'com.google.android.gms:play-services-gcm:8.1.0'
+    compile 'com.androidwheel:androidwheel:0.0.1'
 }
 
 android {
