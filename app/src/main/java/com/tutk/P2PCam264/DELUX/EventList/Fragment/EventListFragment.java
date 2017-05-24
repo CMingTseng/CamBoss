@@ -48,6 +48,7 @@ import com.tutk.IOTC.LargeDownloadListener;
 import com.tutk.P2PCam264.DELUX.MultiView.Activity.MultiViewActivity;
 import com.tutk.P2PCam264.DELUX.Playback.PlaybackActivity;
 import com.tutk.P2PCam264.MyCamera;
+import com.tutk.P2PCam264.R;
 import com.tutk.P2PCam264.ui.Custom_OkCancle_Dialog;
 import com.tutk.P2PCam264.ui.RefreshableView;
 import com.tutk.P2PCam264.ui.RefreshableView.PullToRefreshListener;
@@ -203,7 +204,6 @@ public class EventListFragment extends Fragment implements IRegisterIOTCListener
         loadingView = mActivity.getLayoutInflater().inflate(R.layout.loading_events, null);
         offlineView = mActivity.getLayoutInflater().inflate(R.layout.camera_is_offline, null);
         noResultView = mActivity.getLayoutInflater().inflate(R.layout.no_result, null);
-
         layoutMask = (LinearLayout) view.findViewById(R.id.layoutMasking);
         layoutSearch = (LinearLayout) view.findViewById(R.id.layoutSearch);
         layoutCH = (LinearLayout) view.findViewById(R.id.layoutCH);

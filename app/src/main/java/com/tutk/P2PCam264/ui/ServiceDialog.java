@@ -10,6 +10,7 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import com.tutk.P2PCam264.DELUX.MultiView.Activity.MultiViewActivity;
+import com.tutk.P2PCam264.R;
 
 
 public class ServiceDialog extends Activity {
@@ -40,7 +41,6 @@ public class ServiceDialog extends Activity {
         TextView tvText = (TextView) findViewById(R.id.tvText);
         Button btnOK = (Button) findViewById(R.id.btnOK);
         Button btnCancel = (Button) findViewById(R.id.btnCancel);
-
         tvText.setText("XXX");
 
         btnOK.setOnClickListener(new Button.OnClickListener() {

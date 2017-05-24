@@ -7,6 +7,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.tutk.P2PCam264.R;
+
 
 public class Custom_Ok_Dialog extends AlertDialog {
 

@@ -38,6 +38,7 @@ import com.tutk.P2PCam264.DELUX.LocalPlayback.LocalPlaybackActivity;
 import com.tutk.P2PCam264.DELUX.Photo.Activity.PhotoViewerActivity;
 import com.tutk.P2PCam264.DELUX.Playback.PlaybackActivity;
 import com.tutk.P2PCam264.DELUX.Structure.VideoFile;
+import com.tutk.P2PCam264.R;
 import com.tutk.P2PCam264.ui.Custom_OkCancle_Dialog;
 import com.tutk.P2PCam264.ui.Custom_OkCancle_Dialog.OkCancelDialogListener;
 

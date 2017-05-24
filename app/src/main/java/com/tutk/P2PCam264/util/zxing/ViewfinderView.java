@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.tutk.util.zxing;
+package com.tutk.P2PCam264.util.zxing;
 
 import com.google.zxing.ResultPoint;
 
@@ -26,6 +26,8 @@ import android.graphics.Paint;
 import android.graphics.Rect;
 import android.util.AttributeSet;
 import android.view.View;
+
+import com.tutk.P2PCam264.R;
 
 import java.util.Collection;
 import java.util.HashSet;

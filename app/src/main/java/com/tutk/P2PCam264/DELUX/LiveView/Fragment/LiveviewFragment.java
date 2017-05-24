@@ -35,6 +35,7 @@ import com.tutk.P2PCam264.DELUX.Playback.PlaybackActivity;
 import com.tutk.P2PCam264.DELUX.Structure.Chaanel_to_Monitor_Info;
 import com.tutk.P2PCam264.DELUX.Structure.DeviceInfo;
 import com.tutk.P2PCam264.MyCamera;
+import com.tutk.P2PCam264.R;
 import com.tutk.P2PCam264.ui.Custom_OkCancle_Dialog;
 import com.tutk.P2PCam264.ui.Custom_Ok_img_Dialog;
 import com.tutk.P2PCam264.ui.MultiViewStatusBar;

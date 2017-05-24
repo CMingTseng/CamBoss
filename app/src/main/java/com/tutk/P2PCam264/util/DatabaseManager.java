@@ -1,4 +1,4 @@
-package com.tutk.util;
+package com.tutk.P2PCam264.util;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -17,7 +17,7 @@ import android.os.Build;
 import android.text.TextUtils;
 
 import com.tutk.Logger.Glog;
-import com.tutk.util.PackageManage.myPackageInfo;
+import com.tutk.P2PCam264.util.PackageManage.myPackageInfo;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;

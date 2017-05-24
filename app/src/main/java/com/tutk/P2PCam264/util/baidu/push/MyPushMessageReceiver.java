@@ -1,4 +1,4 @@
-package com.tutk.util.baidu.push;
+package com.tutk.P2PCam264.util.baidu.push;
 
 import android.content.Context;
 import android.text.TextUtils;
@@ -6,8 +6,8 @@ import android.util.Log;
 
 import com.baidu.frontia.api.FrontiaPushMessageReceiver;
 import com.tutk.P2PCam264.DELUX.MultiView.Activity.MultiViewActivity;
-import com.tutk.util.IOTC_GCM_IntentService;
-import com.tutk.util.ThreadTPNS;
+import com.tutk.P2PCam264.util.IOTC_GCM_IntentService;
+import com.tutk.P2PCam264.util.ThreadTPNS;
 
 import org.json.JSONException;
 import org.json.JSONObject;

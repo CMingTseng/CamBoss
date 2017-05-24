@@ -1,4 +1,4 @@
-package com.tutk.util.PackageManage;
+package com.tutk.P2PCam264.util.PackageManage;
 
 /**
  * Created by James Huang on 2015/3/26.

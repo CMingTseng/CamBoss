@@ -33,6 +33,7 @@ import com.tutk.IOTC.SingelDownloadListener;
 import com.tutk.P2PCam264.DELUX.MultiView.Activity.MultiViewActivity;
 import com.tutk.P2PCam264.DELUX.Playback.PlaybackActivity;
 import com.tutk.P2PCam264.MyCamera;
+import com.tutk.P2PCam264.R;
 import com.tutk.P2PCam264.ui.Custom_OkCancle_Dialog;
 
 import java.io.File;

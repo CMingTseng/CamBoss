@@ -58,6 +58,7 @@ import com.tutk.P2PCam264.DELUX.Playback.PlaybackActivity;
 import com.tutk.P2PCam264.DELUX.Structure.Chaanel_to_Monitor_Info;
 import com.tutk.P2PCam264.DELUX.Structure.DeviceInfo;
 import com.tutk.P2PCam264.MyCamera;
+import com.tutk.P2PCam264.R;
 import com.tutk.P2PCam264.ui.Custom_OkCancle_Dialog;
 import com.tutk.P2PCam264.ui.Custom_OkCancle_Dialog.OkCancelDialogListener;
 import com.tutk.P2PCam264.ui.Custom_popupWindow;
@@ -445,7 +446,6 @@ public class MultiViewActivity extends InitCamActivity implements IRegisterIOTCL
         slidingMenu.setTouchModeAbove(SlidingMenu.TOUCHMODE_NONE);
         slidingMenu.setMenu(R.layout.slide_menu);
         slidingMenu.attachToActivity(this, SlidingMenu.SLIDING_CONTENT);
-
         btnEvent = (Button) findViewById(R.id.btnEvent);
         btnGallery = (Button) findViewById(R.id.btnGallery);
         btnDropBox = (Button) findViewById(R.id.btnRecording);

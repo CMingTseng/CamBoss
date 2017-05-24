@@ -55,6 +55,7 @@ import com.tutk.IOTC.St_SInfo;
 import com.tutk.P2PCam264.DELUX.MultiView.Activity.MultiViewActivity;
 import com.tutk.P2PCam264.DELUX.Structure.DeviceInfo;
 import com.tutk.P2PCam264.MyCamera;
+import com.tutk.P2PCam264.R;
 import com.tutk.P2PCam264.ui.mySwitch;
 import com.tutk.P2PCam264.ui.mySwitchButton;
 import com.tutk.P2PCam264.util.DatabaseManager;
@@ -526,7 +527,6 @@ public class LiveViewActivity extends SherlockActivity implements ViewSwitcher.V
         actionBar.hide();
 
         setContentView(R.layout.live_view_landscape);
-
         toolbar_layout = (RelativeLayout) findViewById(R.id.toolbar_layout);
         layoutTitleBar = (RelativeLayout) findViewById(R.id.layoutTitleBar);
         layoutSettings = (RelativeLayout) findViewById(R.id.layoutSettings);

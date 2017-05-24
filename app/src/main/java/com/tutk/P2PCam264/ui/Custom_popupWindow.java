@@ -12,6 +12,8 @@ import android.widget.PopupWindow;
 import android.widget.RelativeLayout;
 import android.widget.ScrollView;
 
+import com.tutk.P2PCam264.R;
+
 import java.util.HashMap;
 
 public class Custom_popupWindow implements View.OnClickListener {

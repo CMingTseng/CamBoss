@@ -49,8 +49,9 @@ import com.tutk.P2PCam264.DELUX.Activity.qr_codeActivity;
 import com.tutk.P2PCam264.DELUX.MultiView.Activity.MultiViewActivity;
 import com.tutk.P2PCam264.DELUX.Structure.DeviceInfo;
 import com.tutk.P2PCam264.MyCamera;
+import com.tutk.P2PCam264.R;
 import com.tutk.P2PCam264.ui.Custom_popupWindow;
-import com.tutk.util.DatabaseManager;
+import com.tutk.P2PCam264.util.DatabaseManager;
 
 import java.io.File;
 import java.text.SimpleDateFormat;

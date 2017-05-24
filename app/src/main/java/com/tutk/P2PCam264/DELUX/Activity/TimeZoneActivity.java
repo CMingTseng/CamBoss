@@ -19,6 +19,7 @@ import com.tutk.IOTC.AVIOCTRLDEFs;
 import com.tutk.IOTC.Camera;
 import com.tutk.P2PCam264.DELUX.MultiView.Activity.MultiViewActivity;
 import com.tutk.P2PCam264.MyCamera;
+import com.tutk.P2PCam264.R;
 
 import java.io.BufferedReader;
 import java.io.IOException;

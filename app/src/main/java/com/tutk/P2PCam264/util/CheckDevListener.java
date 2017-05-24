@@ -1,4 +1,4 @@
-package com.tutk.util;
+package com.tutk.P2PCam264.util;
 
 import com.tutk.P2PCam264.MyCamera;
 

@@ -1,4 +1,4 @@
-package com.tutk.util.appteam;
+package com.tutk.P2PCam264.util.appteam;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;

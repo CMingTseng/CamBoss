@@ -13,6 +13,8 @@ import android.util.AttributeSet;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 
+import com.tutk.P2PCam264.R;
+
 import java.io.IOException;
 import java.io.InputStream;
 
@@ -48,7 +50,6 @@ public class Splash extends SurfaceView implements SurfaceHolder.Callback {
         Bitmap bmp = null;
 
         bmp = getTextureFromBitmapResource(mContext, R.drawable.splash_bg);
-
 		/*
          * if (width == 480 && height == 800) bmp =
 		 * getTextureFromBitmapResource(mContext, R.drawable.splash_480x800);

@@ -23,7 +23,7 @@
                android:layout_gravity="center"
                android:layout_height="fill_parent"/>
 
-    <com.tutk.util.zxing.ViewfinderView
+    <com.tutk.P2PCam264.util.zxing.ViewfinderView
       android:id="@+id/viewfinder_view"
       android:layout_width="fill_parent"
       android:layout_height="fill_parent"

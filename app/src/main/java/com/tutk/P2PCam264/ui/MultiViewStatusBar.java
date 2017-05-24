@@ -7,6 +7,7 @@ import android.widget.TextView;
 import com.tutk.IOTC.Monitor;
 import com.tutk.P2PCam264.DELUX.LiveView.Fragment.LiveviewFragment;
 import com.tutk.P2PCam264.DELUX.Structure.DeviceInfo;
+import com.tutk.P2PCam264.R;
 
 
 public class MultiViewStatusBar {
@@ -50,7 +51,6 @@ public class MultiViewStatusBar {
                 icon_status.setBackgroundResource(R.drawable.ic_name_gr);
             }
         }
-
     }
 
     public void ChangeStatusBar(int Index, DeviceInfo device, Monitor monitor, LiveviewFragment liveviewFragment) {

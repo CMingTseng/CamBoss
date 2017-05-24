@@ -24,6 +24,7 @@ import com.tutk.IOTC.IRegisterIOTCListener;
 import com.tutk.P2PCam264.DELUX.MultiView.Activity.MultiViewActivity;
 import com.tutk.P2PCam264.DELUX.Structure.DeviceInfo;
 import com.tutk.P2PCam264.MyCamera;
+import com.tutk.P2PCam264.R;
 import com.tutk.P2PCam264.ui.Custom_Ok_Dialog;
 import com.tutk.P2PCam264.util.DatabaseManager;
 
@@ -39,7 +40,6 @@ public class SecurityPasswordActivity extends Activity implements IRegisterIOTCL
     private DeviceInfo mDevice;
     private Timer timer = new Timer();
     private TimerTask timerTask;
-
     private EditText etOld;
     private EditText etNew;
     private EditText etConfirm;

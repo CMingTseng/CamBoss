@@ -13,6 +13,7 @@ import android.widget.TextView;
 import com.tutk.IOTC.AVIOCTRLDEFs;
 import com.tutk.Logger.Glog;
 import com.tutk.P2PCam264.MyCamera;
+import com.tutk.P2PCam264.R;
 import com.tutk.P2PCam264.ui.Custom_Ok_Dialog;
 import com.tutk.P2PCam264.ui.Custom_Ok_Dialog.DialogListener;
 import com.tutk.P2PCam264.util.CheckDevListener;

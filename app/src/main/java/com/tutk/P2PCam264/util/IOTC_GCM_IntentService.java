@@ -1,4 +1,4 @@
-package com.tutk.util;
+package com.tutk.P2PCam264.util;
 
 import android.app.IntentService;
 import android.app.Notification;
@@ -15,7 +15,8 @@ import android.os.PowerManager;
 import android.util.Log;
 
 import com.tutk.P2PCam264.DELUX.MultiView.Activity.MultiViewActivity;
-import com.tutk.util.appteam.HttpGetTool;
+import com.tutk.P2PCam264.R;
+import com.tutk.P2PCam264.util.appteam.HttpGetTool;
 
 public class IOTC_GCM_IntentService extends IntentService {
 

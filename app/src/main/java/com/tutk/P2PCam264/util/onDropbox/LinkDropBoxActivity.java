@@ -1,4 +1,4 @@
-package com.tutk.util.onDropbox;
+package com.tutk.P2PCam264.util.onDropbox;
 
 import android.app.ActionBar;
 import android.content.Context;
@@ -41,7 +41,8 @@ import com.tutk.IOTC.IRegisterIOTCListener;
 import com.tutk.P2PCam264.DELUX.MultiView.Activity.MultiViewActivity;
 import com.tutk.P2PCam264.DELUX.Structure.DeviceInfo;
 import com.tutk.P2PCam264.MyCamera;
-import com.tutk.util.DatabaseManager;
+import com.tutk.P2PCam264.R;
+import com.tutk.P2PCam264.util.DatabaseManager;
 
 
 public class LinkDropBoxActivity extends SherlockActivity implements IRegisterIOTCListener, View.OnClickListener {

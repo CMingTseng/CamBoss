@@ -16,6 +16,7 @@ import com.tutk.P2PCam264.DELUX.Adapter.livaviewFragmentAdapter;
 import com.tutk.P2PCam264.DELUX.MultiView.Activity.MultiViewActivity;
 import com.tutk.P2PCam264.DELUX.Structure.Chaanel_to_Monitor_Info;
 import com.tutk.P2PCam264.MyCamera;
+import com.tutk.P2PCam264.R;
 import com.tutk.P2PCam264.util.DatabaseManager;
 import com.viewpagerindicator.CirclePageIndicator;
 

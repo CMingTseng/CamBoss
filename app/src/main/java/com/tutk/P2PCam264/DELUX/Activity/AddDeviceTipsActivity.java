@@ -13,7 +13,7 @@ import com.tutk.IOTC.AVIOCTRLDEFs;
 import com.tutk.P2PCam264.DELUX.MultiView.Activity.MultiViewActivity;
 import com.tutk.P2PCam264.DELUX.Structure.DeviceInfo;
 import com.tutk.P2PCam264.MyCamera;
-
+import com.tutk.P2PCam264.R;
 
 /**
  * Created by James Huang on 2015/3/22.

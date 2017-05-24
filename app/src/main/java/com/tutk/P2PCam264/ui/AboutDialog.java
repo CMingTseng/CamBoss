@@ -10,6 +10,7 @@ import android.widget.TextView;
 
 import com.tutk.IOTC.AVAPIs;
 import com.tutk.IOTC.IOTCAPIs;
+import com.tutk.P2PCam264.R;
 
 
 public class AboutDialog extends AlertDialog implements DialogInterface.OnClickListener {
@@ -32,7 +33,6 @@ public class AboutDialog extends AlertDialog implements DialogInterface.OnClickL
         TextView txtIOTCAPIs = (TextView) view.findViewById(R.id.txtIOTCAPIs);
         TextView txtAVAPIs = (TextView) view.findViewById(R.id.txtAVAPIs);
         Button btnOK = (Button) view.findViewById(R.id.btnOK);
-
         txtVersion.setText(appVersion);
         txtIOTCAPIs.setText(getIOTCAPis());
         txtAVAPIs.setText(getAVAPis());

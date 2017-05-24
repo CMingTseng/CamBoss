@@ -20,6 +20,7 @@ import android.widget.LinearLayout;
 import android.widget.PopupWindow;
 import android.widget.TextView;
 
+import com.tutk.P2PCam264.R;
 import com.tutk.P2PCam264.ui.Custom_popupWindow;
 
 import java.util.HashMap;

@@ -35,6 +35,7 @@ import com.tutk.Logger.Glog;
 import com.tutk.P2PCam264.DELUX.MultiView.Activity.MultiViewActivity;
 import com.tutk.P2PCam264.DELUX.Structure.DeviceInfo;
 import com.tutk.P2PCam264.MyCamera;
+import com.tutk.P2PCam264.R;
 import com.tutk.P2PCam264.util.DatabaseManager;
 import com.tutk.P2PCam264.util.IOTC_GCM_IntentService;
 import com.tutk.P2PCam264.util.ThreadTPNS;
@@ -260,7 +261,6 @@ public class InitCamActivity extends FragmentActivity implements IRegisterIOTCLi
 //                if (MultiViewActivity.SupportOnDropbox) {
 //                    camera.sendIOCtrl(MyCamera.DEFAULT_AV_CHANNEL, AVIOCTRLDEFs.IOTYPE_USER_IPCAM_GET_SAVE_DROPBOX_REQ, "0".getBytes());
 //                }
-
                 camera.LastAudioMode = 1;
 
                 CameraList.add(camera);

@@ -7,6 +7,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.tutk.P2PCam264.R;
+
 
 /**
  * Created by James Huang on 2015/4/3.

@@ -24,6 +24,7 @@ import android.widget.TextView;
 
 import com.tutk.P2PCam264.DELUX.MultiView.Activity.MultiViewActivity;
 import com.tutk.P2PCam264.MyCamera;
+import com.tutk.P2PCam264.R;
 import com.tutk.P2PCam264.ui.Custom_Ok_Dialog;
 import com.tutk.P2PCam264.util.zxing.CameraManager;
 import com.tutk.P2PCam264.util.zxing.CaptureActivityHandler;
@@ -35,7 +36,6 @@ import java.util.Vector;
 
 @SuppressWarnings("deprecation")
 public class qr_codeActivity extends Activity implements Callback {
-
     private CaptureActivityHandler handler;
     private ViewfinderView viewfinderView;
     private boolean hasSurface;

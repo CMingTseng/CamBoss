@@ -28,6 +28,7 @@ import com.tutk.P2PCam264.DELUX.LiveView.Activity.LiveViewActivity;
 import com.tutk.P2PCam264.DELUX.MultiView.Activity.MultiViewActivity;
 import com.tutk.P2PCam264.DELUX.Structure.DeviceInfo;
 import com.tutk.P2PCam264.MyCamera;
+import com.tutk.P2PCam264.R;
 import com.tutk.P2PCam264.util.DatabaseManager;
 import com.tutk.P2PCam264.util.ThreadTPNS;
 
@@ -110,7 +111,6 @@ public class DeviceListFragment extends Fragment {
             if (convertView == null) {
 
                 convertView = mInflater.inflate(R.layout.device_list, null);
-
                 holder = new ViewHolder();
                 holder.img = (ImageView) convertView.findViewById(R.id.img);
                 holder.title = (TextView) convertView.findViewById(R.id.title);

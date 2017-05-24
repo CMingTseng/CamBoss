@@ -18,6 +18,7 @@ import com.tutk.IOTC.Camera;
 import com.tutk.P2PCam264.DELUX.MultiView.Activity.MultiViewActivity;
 import com.tutk.P2PCam264.DELUX.Structure.DeviceInfo;
 import com.tutk.P2PCam264.MyCamera;
+import com.tutk.P2PCam264.R;
 
 
 public class EventSettingsActivity extends Activity {
@@ -49,7 +50,6 @@ public class EventSettingsActivity extends Activity {
     private Spinner spSens;
     private Spinner spPreset;
     private Spinner spInterval;
-
     private boolean mIsMajor = true;
     private byte alarm_motion_armed = -1;
     private byte alarm_motion_sensitivity = -1;

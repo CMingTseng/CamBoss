@@ -17,6 +17,7 @@ import com.tutk.IOTC.AVIOCTRLDEFs;
 import com.tutk.P2PCam264.DELUX.MultiView.Activity.MultiViewActivity;
 import com.tutk.P2PCam264.DELUX.Structure.DeviceInfo;
 import com.tutk.P2PCam264.MyCamera;
+import com.tutk.P2PCam264.R;
 
 
 public class MailSettingsActivity extends Activity {
@@ -24,10 +25,8 @@ public class MailSettingsActivity extends Activity {
     private final int PROTOCOL_NONE = 0;
     private final int PROTOCOL_TLS = 1;
     private final int PROTOCOL_STARTLS = 2;
-
     private MyCamera mCamera;
     private DeviceInfo mDevice;
-
     private EditText etSender;
     private EditText etReceiver;
     private EditText etServer;

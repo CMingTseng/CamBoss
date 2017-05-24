@@ -14,9 +14,9 @@ import com.tutk.IOTC.AVIOCTRLDEFs;
 import com.tutk.IOTC.Camera;
 import com.tutk.P2PCam264.DELUX.MultiView.Activity.MultiViewActivity;
 import com.tutk.P2PCam264.MyCamera;
+import com.tutk.P2PCam264.R;
 import com.tutk.P2PCam264.ui.Custom_OkCancle_Dialog;
 import com.tutk.P2PCam264.ui.Custom_OkCancle_Dialog.OkCancelDialogListener;
-
 
 public class FormatSDActivity extends Activity implements OkCancelDialogListener {
 

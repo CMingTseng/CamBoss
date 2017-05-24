@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.tutk.util.zxing;
+package com.tutk.P2PCam264.util.zxing;
 
 import com.google.zxing.BinaryBitmap;
 import com.google.zxing.DecodeHintType;
@@ -30,6 +30,7 @@ import android.os.Message;
 import android.util.Log;
 
 import com.tutk.P2PCam264.DELUX.Activity.qr_codeActivity;
+import com.tutk.P2PCam264.R;
 
 import java.util.Hashtable;
 

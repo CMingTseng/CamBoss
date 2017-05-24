@@ -1,4 +1,4 @@
-package com.tutk.util;
+package com.tutk.P2PCam264.util;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -12,6 +12,7 @@ import com.tutk.IOTC.IRegisterIOTCListener;
 import com.tutk.IOTC.Packet;
 import com.tutk.Logger.Glog;
 import com.tutk.P2PCam264.MyCamera;
+import com.tutk.P2PCam264.util.appteam.WifiAdmin;
 
 import java.util.Calendar;
 import java.util.Timer;
@@ -31,7 +32,7 @@ public class EasyWiFiSetting implements IRegisterIOTCListener {
     private final static String TAG = "EasyWiFi";
 
     private MyCamera mCamera = null;
-    private com.tutk.util.appteam.WifiAdmin WifiAdmin;
+    private com.tutk.P2PCam264.util.appteam.WifiAdmin WifiAdmin;
     private Handler handler = new Handler();
     private Context mContext;
     private CheckDevListener mListener;
@@ -84,7 +85,7 @@ public class EasyWiFiSetting implements IRegisterIOTCListener {
 
         mConnectThread.start();
 
-        WifiAdmin = new com.tutk.util.appteam.WifiAdmin(mContext);
+        WifiAdmin = new WifiAdmin(mContext);
     }
 
     public void quit(boolean isIntent) {

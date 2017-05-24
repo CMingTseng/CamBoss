@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.tutk.util.zxing;
+package com.tutk.P2PCam264.util.zxing;
 
 /**
  * This class provides the constants to use when sending an Intent to Barcode Scanner.

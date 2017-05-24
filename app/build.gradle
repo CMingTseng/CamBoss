@@ -5,15 +5,41 @@ android {
     compileSdkVersion 25
     buildToolsVersion "25.0.3"
     defaultConfig {
-        minSdkVersion 14
+        minSdkVersion 16
         targetSdkVersion 22
+        applicationId = "tw.haotek.ap.CamBoss"
+        versionCode 2015100218
+        versionName = "1.0.2"
     }
-    productFlavors {
 
-        Kalay_Car {
-            applicationId = "tw.haotek.ap.CamBoss"
-            versionCode 2015100218
-            versionName = "1.0.2"
+    lintOptions {
+        checkReleaseBuilds false
+    }
+
+    buildTypes {
+
+        debug {
+            minifyEnabled false
+            zipAlignEnabled false
+            shrinkResources false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+
+        release {
+            minifyEnabled true
+            zipAlignEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+
+        applicationVariants.all { variant ->
+            variant.outputs.each { output ->
+                def outputFile = output.outputFile
+                if (outputFile != null && outputFile.name.endsWith('.apk')) {
+                    def fileName = "CamBoss_${variant.versionName}.apk"
+                    output.outputFile = new File(outputFile.parent, fileName)
+                }
+            }
         }
     }
 
@@ -30,37 +56,6 @@ android {
         exclude 'META-INF/notice.txt'
         exclude 'META-INF/NOTICE.txt'
     }
-
-    lintOptions {
-        checkReleaseBuilds false
-    }
-
-    buildTypes {
-
-        debug {
-            minifyEnabled true
-            zipAlignEnabled true
-            shrinkResources true
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-        }
-
-        release {
-            minifyEnabled true
-            zipAlignEnabled true
-            shrinkResources true
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-
-            applicationVariants.all { variant ->
-                variant.outputs.each { output ->
-                    def outputFile = output.outputFile
-                    if (outputFile != null && outputFile.name.endsWith('.apk')) {
-                        def fileName = "CamBoss_${variant.productFlavors[0].versionName}.apk"
-                        output.outputFile = new File(outputFile.parent, fileName)
-                    }
-                }
-            }
-        }
-    }
 }
 
 dependencies {
@@ -72,8 +67,7 @@ dependencies {
     compile 'com.actionbarsherlock:actionbarsherlock:0.0.1'
     compile 'com.viewpagerindicator:viewpagerindicator:0.0.1'
     compile 'com.slidingmenu:slidingmenu:0.0.1'
-    compile 'com.google.android.gms:play-services-gcm:8.1.0'
-    compile 'com.google.android.gms:play-services-gcm:8.1.0'
     compile 'com.androidwheel:androidwheel:0.0.1'
+    compile 'com.google.android.gms:play-services-gcm:8.1.0'
 }
 

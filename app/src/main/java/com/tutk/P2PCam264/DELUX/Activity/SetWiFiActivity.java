@@ -24,13 +24,13 @@ import com.tutk.Logger.Glog;
 import com.tutk.P2PCam264.DELUX.Device.edit.Activity.EditDeviceActivity;
 import com.tutk.P2PCam264.DELUX.MultiView.Activity.MultiViewActivity;
 import com.tutk.P2PCam264.MyCamera;
+import com.tutk.P2PCam264.R;
 import com.tutk.P2PCam264.ui.Custom_Pwd_Dialog;
 import com.tutk.P2PCam264.ui.Custom_Pwd_Dialog.PwdDialogListener;
 
 import java.lang.reflect.Method;
 
 public class SetWiFiActivity extends Activity implements PwdDialogListener {
-
     private MyCamera mCamera;
 
     private ListView list;

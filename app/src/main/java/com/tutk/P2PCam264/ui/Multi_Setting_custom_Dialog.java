@@ -9,6 +9,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.ImageButton;
 
+import com.tutk.P2PCam264.R;
+
 
 public class Multi_Setting_custom_Dialog extends AlertDialog implements DialogInterface.OnClickListener {
     Context mContext;

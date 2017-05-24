@@ -18,6 +18,8 @@ import android.widget.ListView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
+import com.tutk.P2PCam264.R;
+
 
 /**
  * @author guolin
@@ -98,7 +100,6 @@ public class RefreshableView extends LinearLayout implements OnTouchListener {
         //refreshUpdatedAtValue();
         setOrientation(VERTICAL);
         addView(header, 0);
-
         hideHeaderHeight = (int) -(getResources().getDimension(R.dimen.refresh_h));
         headerLayoutParams = (MarginLayoutParams) header.getLayoutParams();
         headerLayoutParams.topMargin = hideHeaderHeight;

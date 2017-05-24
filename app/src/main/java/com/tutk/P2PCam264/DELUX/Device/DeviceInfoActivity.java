@@ -13,6 +13,7 @@ import com.tutk.IOTC.IRegisterIOTCListener;
 import com.tutk.IOTC.Packet;
 import com.tutk.P2PCam264.DELUX.MultiView.Activity.MultiViewActivity;
 import com.tutk.P2PCam264.MyCamera;
+import com.tutk.P2PCam264.R;
 
 
 public class DeviceInfoActivity extends Activity implements IRegisterIOTCListener {
@@ -59,7 +60,6 @@ public class DeviceInfoActivity extends Activity implements IRegisterIOTCListene
     }
 
     private void initDeviceInfo() {
-
         txtDeviceModel.setText(getText(R.string.tips_wifi_retrieving));
         txtDeviceVersion.setText(getText(R.string.tips_wifi_retrieving));
         txtVenderName.setText(getText(R.string.tips_wifi_retrieving));

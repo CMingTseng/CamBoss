@@ -8,6 +8,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import com.tutk.P2PCam264.R;
+
 
 public class Custom_Pwd_Dialog extends AlertDialog {
     private Context mContext;

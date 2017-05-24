@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.tutk.util.zxing;
+package com.tutk.P2PCam264.util.zxing;
 
 import android.graphics.Point;
 import android.hardware.Camera;

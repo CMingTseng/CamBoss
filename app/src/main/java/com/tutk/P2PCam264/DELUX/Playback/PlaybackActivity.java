@@ -63,6 +63,7 @@ import com.tutk.P2PCam264.DELUX.MultiView.Activity.MultiViewActivity;
 import com.tutk.P2PCam264.DELUX.Photo.Fragment.PhotoListFragment;
 import com.tutk.P2PCam264.DELUX.Structure.DeviceInfo;
 import com.tutk.P2PCam264.MyCamera;
+import com.tutk.P2PCam264.R;
 import com.tutk.P2PCam264.ui.Custom_OkCancle_Dialog;
 import com.tutk.P2PCam264.util.appteam.WifiAdmin;
 
@@ -1403,7 +1404,7 @@ public class PlaybackActivity extends SherlockActivity implements IRegisterIOTCL
         private ListView lvNickname;
         private SSIDAdapter mAdapter;
 
-        private com.tutk.util.appteam.WifiAdmin WifiAdmin;
+        private com.tutk.P2PCam264.util.appteam.WifiAdmin WifiAdmin;
         private List<ScanResult> mWiFiList;
         private String mSSID;
         private String mAP;

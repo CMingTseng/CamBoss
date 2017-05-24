@@ -43,6 +43,7 @@ import com.tutk.P2PCam264.DELUX.EventList.Activity.EventSettingsActivity;
 import com.tutk.P2PCam264.DELUX.MultiView.Activity.MultiViewActivity;
 import com.tutk.P2PCam264.DELUX.Structure.DeviceInfo;
 import com.tutk.P2PCam264.MyCamera;
+import com.tutk.P2PCam264.R;
 import com.tutk.P2PCam264.ui.Custom_OkCancle_Dialog;
 import com.tutk.P2PCam264.ui.Custom_OkCancle_Dialog.OkCancelDialogListener;
 import com.tutk.P2PCam264.ui.Custom_Ok_Dialog;
@@ -60,7 +61,6 @@ public class EditDeviceActivity extends Activity implements IRegisterIOTCListene
     private static final int REQUEST_CODE_EVENT = 4;
     private static final int REQUEST_CODE_FTP = 5;
     private static final int REQUEST_CODE_MAIL = 6;
-
     private final int[] mAnims = {R.anim.topbar_slide_show, R.anim.topbar_slide_show_double, R.anim.topbar_slide_show_triple,
             R.anim.topbar_slide_show_fourfold, R.anim.topbar_slide_show_fivefold, R.anim.topbar_slide_show_sixfold,
             R.anim.topbar_slide_show_sevenfold, R.anim.topbar_slide_show_eightfold};
