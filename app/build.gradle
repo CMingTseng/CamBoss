@@ -1,25 +1,6 @@
 apply plugin: 'com.android.application'
 apply plugin: 'io.fabric'
 
-repositories {
-    mavenCentral()
-    maven { url 'https://maven.fabric.io/public' }
-}
-
-dependencies {
-    compile fileTree(include: '*.jar', dir: 'libs')
-    compile('com.crashlytics.sdk.android:crashlytics:2.4.0@aar') {
-        transitive = true;
-    }
-    compile 'com.android.support:support-v4:25.3.1'
-    compile 'com.actionbarsherlock:actionbarsherlock:0.0.1'
-    compile 'com.viewpagerindicator:viewpagerindicator:0.0.1'
-    compile 'com.slidingmenu:slidingmenu:0.0.1'
-    compile 'com.google.android.gms:play-services-gcm:8.1.0'
-    compile 'com.google.android.gms:play-services-gcm:8.1.0'
-    compile 'com.androidwheel:androidwheel:0.0.1'
-}
-
 android {
     compileSdkVersion 25
     buildToolsVersion "25.0.3"
@@ -33,14 +14,6 @@ android {
             applicationId = "tw.haotek.ap.CamBoss"
             versionCode 2015100218
             versionName = "1.0.2"
-        }
-    }
-
-    sourceSets {
-        main {
-            java.srcDirs = ['src/main']
-            assets.srcDirs = ['assets']
-            jniLibs.srcDirs = ['libs']
         }
     }
 
@@ -81,8 +54,6 @@ android {
                 variant.outputs.each { output ->
                     def outputFile = output.outputFile
                     if (outputFile != null && outputFile.name.endsWith('.apk')) {
-                        // apk file's name
-//                        def fileName = "${variant.productFlavors[0].name}_${variant.productFlavors[0].versionName}.apk"
                         def fileName = "CamBoss_${variant.productFlavors[0].versionName}.apk"
                         output.outputFile = new File(outputFile.parent, fileName)
                     }
@@ -91,3 +62,18 @@ android {
         }
     }
 }
+
+dependencies {
+    compile fileTree(include: '*.jar', dir: 'libs')
+    compile('com.crashlytics.sdk.android:crashlytics:2.4.0@aar') {
+        transitive = true;
+    }
+    compile 'com.android.support:support-v4:25.3.1'
+    compile 'com.actionbarsherlock:actionbarsherlock:0.0.1'
+    compile 'com.viewpagerindicator:viewpagerindicator:0.0.1'
+    compile 'com.slidingmenu:slidingmenu:0.0.1'
+    compile 'com.google.android.gms:play-services-gcm:8.1.0'
+    compile 'com.google.android.gms:play-services-gcm:8.1.0'
+    compile 'com.androidwheel:androidwheel:0.0.1'
+}
+
