@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.tutk">
-
+    package="com.tutk.P2PCam264">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
@@ -44,7 +43,7 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name" >
         <activity
-            android:name="com.tutk.P2PCam264.SplashScreenActivity"
+            android:name=".SplashScreenActivity"
             android:clearTaskOnLaunch="true"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:label="@string/app_name"
@@ -97,21 +96,21 @@
             android:value="9tyxNZr7NckpxnjNlyy8n7nQ" />
 
         <activity
-            android:name="com.tutk.P2PCam264.DELUX.SearchEvent.SearchEventActivity$DeviceListActivity"
+            android:name="DELUX.SearchEvent.SearchEventActivity$DeviceListActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.Sherlock.Light" >
         </activity>
         <activity
-            android:name="com.tutk.P2PCam264.DeviceOnCloud.LoginActivity"
+            android:name=".DeviceOnCloud.LoginActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.Sherlock.Light" >
         </activity>
         <activity
-            android:name="com.tutk.P2PCam264.EasySettingWIFI.NOWAPActivity"
+            android:name=".EasySettingWIFI.NOWAPActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
@@ -139,7 +138,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tutk.P2PCam264.DELUX.MultiView.Activity.MultiViewActivity"
+            android:name=".DELUX.MultiView.Activity.MultiViewActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:label="@string/app_name"
             android:launchMode="singleTask"
@@ -154,42 +153,42 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".P2PCam264.DELUX.Activity.AddDeviceActivity"
+            android:name=".DELUX.Activity.AddDeviceActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.Sherlock" />
         <activity
-            android:name="com.tutk.P2PCam264.DELUX.LiveView.Activity.LiveViewActivity"
+            android:name=".DELUX.LiveView.Activity.LiveViewActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:label="@string/app_name"
             android:theme="@style/Theme.Sherlock.Light"
             android:uiOptions="splitActionBarWhenNarrow" />
         <activity
-            android:name=".P2PCam264.DELUX.Device.edit.Activity.EditDeviceActivity"
+            android:name=".DELUX.Device.edit.Activity.EditDeviceActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.Sherlock" />
         <activity
-            android:name="com.tutk.P2PCam264.DELUX.EventList.Activity.EventListActivity"
+            android:name=".DELUX.EventList.Activity.EventListActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.Sherlock.Light" />
         <activity
-            android:name="com.tutk.P2PCam264.DELUX.Playback.PlaybackActivity"
+            android:name=".DELUX.Playback.PlaybackActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:label="@string/app_name"
             android:theme="@style/Theme.Sherlock"
             android:uiOptions="splitActionBarWhenNarrow" />
         <activity
-            android:name="com.tutk.P2PCam264.DELUX.Photo.Activity.PhotoViewerActivity"
+            android:name=".DELUX.Photo.Activity.PhotoViewerActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.Sherlock" />
         <activity
-            android:name="com.tutk.P2PCam264.DELUX.Activity.GridViewGalleryActivity"
+            android:name=".DELUX.Activity.GridViewGalleryActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:hardwareAccelerated="false"
             android:label="@string/app_name"
@@ -198,7 +197,7 @@
             android:uiOptions="splitActionBarWhenNarrow" />
 
         <receiver
-            android:name="com.tutk.util.GCMReceiver"
+            android:name=".util.GCMReceiver"
             android:permission="com.google.android.c2dm.permission.SEND" >
             <intent-filter>
                 <action android:name="com.google.android.c2dm.intent.RECEIVE" />
@@ -208,54 +207,54 @@
             </intent-filter>
         </receiver>
 
-        <service android:name="com.tutk.util.IOTC_GCM_IntentService" />
+        <service android:name=".util.IOTC_GCM_IntentService" />
 
         <activity
             android:name="com.tutk.P2PCam264.DELUX.LocalPlayback.LocalPlaybackActivity"
             android:configChanges="orientation|screenSize"
             android:theme="@style/Theme.Sherlock" />
         <activity
-            android:name=".P2PCam264.DELUX.Activity.qr_codeActivity"
+            android:name=".DELUX.Activity.qr_codeActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.Sherlock" />
         <activity
-            android:name="com.tutk.P2PCam264.DELUX.Playback.PlaybackActivity$NicknameListActivity"
+            android:name=".DELUX.Playback.PlaybackActivity$NicknameListActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.Sherlock" />
         <activity
-            android:name="com.tutk.P2PCam264.DELUX.Playback.PlaybackActivity$SelectAPActivity"
+            android:name=".DELUX.Playback.PlaybackActivity$SelectAPActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.Sherlock" />
         <activity
-            android:name=".P2PCam264.DELUX.Activity.AddDeviceCheckActivity"
+            android:name=".DELUX.Activity.AddDeviceCheckActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.Sherlock" />
         <activity
-            android:name="com.tutk.P2PCam264.DELUX.Activity.AboutActivity"
+            android:name=".DELUX.Activity.AboutActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.Sherlock" />
         <activity
-            android:name="com.tutk.P2PCam264.DELUX.Playback.PlaybackActivity$PushSettingActivity"
+            android:name=".DELUX.Playback.PlaybackActivity$PushSettingActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.Sherlock" />
         <activity
-            android:name="com.tutk.P2PCam264.DELUX.Activity.SecurityPasswordActivity"
+            android:name=".DELUX.Activity.SecurityPasswordActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.Sherlock" />
         <activity
-            android:name="com.tutk.P2PCam264.DELUX.Activity.FormatSDActivity"
+            android:name=".DELUX.Activity.FormatSDActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.Sherlock" />
         <activity
-            android:name="com.tutk.P2PCam264.DELUX.Device.DeviceInfoActivity"
+            android:name=".DELUX.Device.DeviceInfoActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.Sherlock" />
         <activity
-            android:name="com.tutk.P2PCam264.DELUX.Activity.TimeZoneActivity"
+            android:name=".DELUX.Activity.TimeZoneActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.Sherlock" />
         <activity
-            android:name="com.tutk.P2PCam264.DELUX.Activity.SetWiFiActivity"
+            android:name=".DELUX.Activity.SetWiFiActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.Sherlock" />
         <activity
